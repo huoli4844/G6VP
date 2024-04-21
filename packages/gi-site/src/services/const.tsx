@@ -38,10 +38,11 @@ export const GI_SITE = {
     return GI_DEPOLY_INC_SITE.includes(window.location.hostname);
   },
   get SERVICE_URL() {
+    console.log(window.location)
     const { hostname, protocol } = window.location;
     const { GI_SITE_ID = 'DEFAULT' } = getSiteContext();
     const port = 7001;
-    let online = `${protocol}//${hostname}:${port}`;
+    let online = 'http://116.205.136.234:9092' || `${protocol}//${hostname}:${port}`;
     if (GI_SITE_ID === 'DEFAULT' && GI_SITE.IS_INC_SITE) {
       online = INC_SERVICE_URL;
     } else if (!IS_DEV_ENV){

@@ -23,7 +23,6 @@ const ToolbarContainer: React.FunctionComponent<ToolbarContainerProps> = props =
   }, [GIAC]);
 
   const { direction, positionStyles } = getToolbarStyleByConfig(config);
-
   return (
     <div>
       <Toolbar direction={direction} style={positionStyles}>

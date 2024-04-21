@@ -3,8 +3,8 @@ import pkg from '../../package.json';
 export const DEFAULT_THEME_VARS = {
   light: {
     // 主题色
-    '--primary-color': '#3056e3', //'rgba(48,86,227,1)',
-    '--primary-color-opacity-1': 'rgba(48,86,227,0.1)',
+    '--primary-color': '#128075', //'rgba(48,86,227,1)',
+    '--primary-color-opacity-1': 'rgba(18,128,117,0.1)',
 
     // 背景色
     '--background-color': 'rgba(255,255,255,1)',
@@ -94,7 +94,7 @@ export const DEFAULT_THEME_VARS = {
   },
   dark: {
     // 主题色
-    '--primary-color': '#3056e3',
+    '--primary-color': '#128075',
     '--primary-color-opacity-1': 'rgba(255, 255, 255, 0.05)',
     // 背景色
     '--layout-background-color': 'rgba(31, 31, 31, 1)',
@@ -127,7 +127,7 @@ export const DEFAULT_THEME_VARS = {
 
     '--background-color-card': 'rgb(45, 45, 45)',
 
-    '--link-color': '#3056e3', // 链接色
+    '--link-color': '#128075', // 链接色
     '--success-color': '#52c41a', // 成功色
     '--warning-color': '#faad14', // 警告色
     '--error-color': '#f5222d', // 错误色

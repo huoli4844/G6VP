@@ -28,7 +28,6 @@ export interface ToolBarProps {
 
 const Toolbar: React.FunctionComponent<ToolBarProps> = props => {
   const { children, style = {}, direction = 'horizontal' } = props;
-
   const isHorizontal = direction === 'horizontal';
   const positionStyle: React.CSSProperties = {
     position: 'absolute',

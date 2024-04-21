@@ -26,7 +26,7 @@ const Cypher_Template = engineId => [
         icon: 'icon-query',
         isShowTooltip: true,
         tooltip: '',
-        tooltipColor: '#3056e3',
+        tooltipColor: '#128075',
         tooltipPlacement: 'right',
         hasDivider: false,
         height: '60px',
@@ -63,7 +63,7 @@ const Gremlin_Template = engineId => [
         icon: 'icon-query',
         isShowTooltip: true,
         tooltip: '',
-        tooltipColor: '#3056e3',
+        tooltipColor: '#128075',
         tooltipPlacement: 'right',
         hasDivider: false,
         height: '60px',
@@ -108,7 +108,7 @@ const getConfigByEngineId = (engineId, template) => {
   const componentConfig = [...components, ...addComponent];
   //@TODO: 之后增加container，统一处理这段逻辑
 
-  if(engineId !== 'AKG'){
+  if (engineId !== 'AKG') {
     componentConfig.forEach(item => {
       if (item.id === 'GrailLayout') {
         item.props.containers = [
@@ -140,7 +140,6 @@ const getConfigByEngineId = (engineId, template) => {
       }
     });
   }
-
 
   const config = {
     nodes,

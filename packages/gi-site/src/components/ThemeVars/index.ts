@@ -1,13 +1,13 @@
 export default {
   light: {
     // 主题色
-    '--primary-color': '#3056e3', //'rgba(48,86,227,1)',
-    '--primary-color-opacity-1': 'rgba(48,86,227,0.1)',
+    '--primary-color': '#128075', //'rgba(48,86,227,1)',
+    '--primary-color-opacity-1': 'rgba(18,128,117,0.1)',
 
     // 背景色
-    '--layout-background-color': 'hsla(216, 100%, 96%, 1)',
-    '--layout-background':
-      'radial-gradient(at 13% 5%, hsla(214, 100%, 37%, 0.29) 0px, transparent 50%), radial-gradient(at 100% 100%, hsla(254, 66%, 56%, 0.11) 0px, transparent 50%), radial-gradient(at 0% 100%, hsla(355, 100%, 93%, 0) 0px, transparent 50%), radial-gradient(at 61% 52%, hsla(227, 64%, 46%, 0.05) 0px, transparent 50%), radial-gradient(at 88% 12%, hsla(227, 70%, 49%, 0.1) 0px, transparent 50%), radial-gradient(at 100% 37%, hsla(254, 68%, 56%, 0) 0px, transparent 50%)',
+    '--layout-background-color': 'hsla(174, 75%, 29%, 0.1)',
+    '--layout-background': 'rgba(18,128,117,0.1)',
+    // 'radial-gradient(at 13% 5%, hsla(214, 100%, 37%, 0.29) 0px, transparent 50%), radial-gradient(at 100% 100%, hsla(254, 66%, 56%, 0.11) 0px, transparent 50%), radial-gradient(at 0% 100%, hsla(355, 100%, 93%, 0) 0px, transparent 50%), radial-gradient(at 61% 52%, hsla(227, 64%, 46%, 0.05) 0px, transparent 50%), radial-gradient(at 88% 12%, hsla(227, 70%, 49%, 0.1) 0px, transparent 50%), radial-gradient(at 100% 37%, hsla(254, 68%, 56%, 0) 0px, transparent 50%)',
     '--background-color': 'rgba(255,255,255,1)',
     '--background-color-2': 'rgba(245,245,245,1)',
     '--background-color-3': 'rgba(235,235,235,1)',
@@ -97,7 +97,7 @@ export default {
   },
   dark: {
     // 主题色
-    '--primary-color': '#3056e3',
+    '--primary-color': '#128075',
     '--primary-color-opacity-1': 'rgba(255, 255, 255, 0.05)',
     // 背景色
     '--layout-background-color': 'rgba(31, 31, 31, 1)',
@@ -130,7 +130,7 @@ export default {
 
     '--background-color-card': 'rgb(45, 45, 45)',
 
-    '--link-color': '#3056e3', // 链接色
+    '--link-color': '#128075', // 链接色
     '--success-color': '#52c41a', // 成功色
     '--warning-color': '#faad14', // 警告色
     '--error-color': '#f5222d', // 错误色

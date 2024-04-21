@@ -301,7 +301,7 @@
             "id": "SimpleNode",
             "props": {
               "size": 26,
-              "color": "#3056E3",
+              "color": "#128075",
               "label": ["user^^id"],
               "advanced": {
                 "label": {
@@ -340,7 +340,7 @@
             "id": "SimpleEdge",
             "props": {
               "size": 1,
-              "color": "#3056E3",
+              "color": "#128075",
               "label": []
             },
             "name": "官方边",
@@ -358,7 +358,7 @@
         ],
         "name": "清新蓝",
         "id": "light",
-        "primaryColor": "rgb(48, 86, 227)"
+        "primaryColor": "rgb(18, 128, 117)"
       },
       {
         "canvasConfig": {
@@ -402,7 +402,7 @@
             "id": "SimpleNode",
             "props": {
               "size": 26,
-              "color": "#3056E3",
+              "color": "#128075",
               "label": ["user^^id"],
               "advanced": {
                 "label": {
@@ -441,7 +441,7 @@
             "id": "SimpleEdge",
             "props": {
               "size": 1,
-              "color": "#3056E3",
+              "color": "#128075",
               "label": []
             },
             "name": "官方边",
@@ -503,7 +503,7 @@
             "id": "SimpleNode",
             "props": {
               "size": 26,
-              "color": "#3056E3",
+              "color": "#128075",
               "label": ["user^^id"],
               "advanced": {
                 "label": {
@@ -542,7 +542,7 @@
             "id": "SimpleEdge",
             "props": {
               "size": 1,
-              "color": "#3056E3",
+              "color": "#128075",
               "label": []
             },
             "name": "官方边",
@@ -604,7 +604,7 @@
             "id": "SimpleNode",
             "props": {
               "size": 26,
-              "color": "#3056E3",
+              "color": "#128075",
               "label": ["user^^id"],
               "advanced": {
                 "label": {
@@ -643,7 +643,7 @@
             "id": "SimpleEdge",
             "props": {
               "size": 1,
-              "color": "#3056E3",
+              "color": "#128075",
               "label": []
             },
             "name": "官方边",
@@ -689,7 +689,7 @@
           "id": "SimpleNode",
           "props": {
             "size": 26,
-            "color": "#3056E3",
+            "color": "#128075",
             "label": ["user^^id"],
             "advanced": {
               "label": {
@@ -728,7 +728,7 @@
           "id": "SimpleEdge",
           "props": {
             "size": 1,
-            "color": "#3056E3",
+            "color": "#128075",
             "label": []
           },
           "name": "官方边",
@@ -760,7 +760,7 @@
               "icon": "icon-zoomin",
               "isShowTooltip": true,
               "tooltip": "",
-              "tooltipColor": "#3056e3",
+              "tooltipColor": "#128075",
               "tooltipPlacement": "right",
               "hasDivider": false,
               "height": "46px",
@@ -783,7 +783,7 @@
               "icon": "icon-zoomout",
               "isShowTooltip": true,
               "tooltip": "",
-              "tooltipColor": "#3056e3",
+              "tooltipColor": "#128075",
               "tooltipPlacement": "right",
               "hasDivider": false,
               "height": "46px",
@@ -806,7 +806,7 @@
               "icon": "icon-fit-center",
               "isShowTooltip": true,
               "tooltip": "",
-              "tooltipColor": "#3056e3",
+              "tooltipColor": "#128075",
               "tooltipPlacement": "right",
               "hasDivider": false,
               "height": "46px",
@@ -829,7 +829,7 @@
               "icon": "icon-lasso",
               "isShowTooltip": true,
               "tooltip": "按住Shift，点击画布即可自由圈选",
-              "tooltipColor": "#3056e3",
+              "tooltipColor": "#128075",
               "tooltipPlacement": "right",
               "hasDivider": false,
               "height": "46px",
@@ -917,7 +917,7 @@
           "type": "GIAC_CONTENT",
           "name": "筛选面板",
           "props": {
-            "histogramColor": "#3056E3",
+            "histogramColor": "#128075",
             "isFilterIsolatedNodes": true,
             "highlightMode": true,
             "filterKeys": [],
@@ -931,7 +931,7 @@
               "icon": "icon-filter",
               "isShowTooltip": true,
               "tooltip": "通过属性筛选画布信息，可自定义",
-              "tooltipColor": "#3056e3",
+              "tooltipColor": "#128075",
               "tooltipPlacement": "top",
               "hasDivider": false,
               "height": "46px",
@@ -974,7 +974,7 @@
               "icon": "icon-3d",
               "isShowTooltip": true,
               "tooltip": "",
-              "tooltipColor": "#3056e3",
+              "tooltipColor": "#128075",
               "tooltipPlacement": "right",
               "hasDivider": false,
               "height": "46px",
@@ -1008,7 +1008,7 @@
               "icon": "icon-global",
               "isShowTooltip": true,
               "tooltip": "",
-              "tooltipColor": "#3056e3",
+              "tooltipColor": "#128075",
               "tooltipPlacement": "right",
               "hasDivider": false,
               "height": "46px",
@@ -1089,7 +1089,7 @@
               "icon": "icon-layout-force",
               "isShowTooltip": true,
               "tooltip": "",
-              "tooltipColor": "#3056e3",
+              "tooltipColor": "#128075",
               "tooltipPlacement": "right",
               "hasDivider": false,
               "height": "46px",
@@ -1130,7 +1130,7 @@
               "icon": "icon-layout",
               "isShowTooltip": false,
               "tooltip": "一键切换画布布局",
-              "tooltipColor": "#3056e3",
+              "tooltipColor": "#128075",
               "tooltipPlacement": "right",
               "hasDivider": false,
               "height": "46px",
@@ -1173,7 +1173,7 @@
               "icon": "icon-export",
               "isShowTooltip": true,
               "tooltip": "导出CSV,PNG,JSON数据",
-              "tooltipColor": "#3056e3",
+              "tooltipColor": "#128075",
               "tooltipPlacement": "right",
               "hasDivider": false,
               "height": "46px",

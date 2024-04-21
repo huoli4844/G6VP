@@ -148,7 +148,7 @@ const EdgeMerge: React.FunctionComponent<{ GIAC: IGIAC }> = props => {
   };
 
   return (
-    // <Tooltip title="针对起点、终点、边类型相同的多条边聚合成一条" color="#3056e3">
+    // <Tooltip title="针对起点、终点、边类型相同的多条边聚合成一条" color="#128075">
     //   <Button type="text" style={{ height: 60 }} onClick={onClickButton}>
     //     <Icon type="icon-toolbar_edge_merge" />
     //     <br />

@@ -5,7 +5,6 @@ import { GIAC_PROPS, IGIAC } from './const';
 
 const WrapTooltip = props => {
   const { title, tooltip, isShowTooltip, tooltipPlacement, tooltipColor, children } = props;
-
   if (isShowTooltip) {
     return (
       //@ts-ignore
