@@ -118,7 +118,7 @@ const ThemeSetting: React.FC<Props> = props => {
             <Col span={12}>
               <Card
                 hoverable
-                /* cover={<PlusOutlined style={{ fontSize: '70px', color: '#3056E3' }} />} */
+                /* cover={<PlusOutlined style={{ fontSize: '70px', color: '#128075' }} />} */
                 onClick={() =>
                   updateState(draft => {
                     draft.status = 'add';
@@ -145,7 +145,7 @@ const ThemeSetting: React.FC<Props> = props => {
                     onClick={() => setTheme(item)}
                     style={{
                       position: 'relative',
-                      border: state.currentThemeId === item.id ? '#3056e3 1px solid' : '',
+                      border: state.currentThemeId === item.id ? '#128075 1px solid' : '',
                       background: cardBgColor,
                       color: primaryColor === cardBgColor ? 'rgba(0, 0, 0, 0.85)' : primaryColor,
                     }}

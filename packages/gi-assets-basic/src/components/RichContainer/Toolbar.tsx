@@ -42,7 +42,6 @@ const Toolbar = (props: ToolbarProps) => {
           return <ItemComponent {...itemProps} />;
         }
         const { icon, tooltipColor = 'var(--primary-color)' } = GIAC_CONTENT || {};
-
         return (
           <Tooltip title={title} color={tooltipColor}>
             <Button

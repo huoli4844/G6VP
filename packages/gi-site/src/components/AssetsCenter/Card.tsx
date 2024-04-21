@@ -54,7 +54,7 @@ const AssetCard: React.FunctionComponent<AssetCardProps> = props => {
             style={{
               //  backgroundColor: '#EAEEFC',
               background: 'var(--primary-color-opacity-1)',
-              color: '#3056E3',
+              color: '#128075',
               fontSize: '34px',
             }}
             icon={<Icon type={icon} />}

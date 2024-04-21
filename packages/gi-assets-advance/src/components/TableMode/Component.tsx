@@ -53,7 +53,7 @@ const TableMode: React.FC<IProps> = props => {
   // 使用参考色板 & 主题色值生成新色板
   const newPalette = generatePalette({
     ...palette,
-    brandColor: localStorage.getItem('@theme') === 'dark' ? '#1f1f1f' : '#3056e3',
+    brandColor: localStorage.getItem('@theme') === 'dark' ? '#1f1f1f' : '#128075',
   });
   const themeCfg = {
     name: 'colorful',

@@ -31,7 +31,7 @@ export const GI_PROJECT_CONFIG = {
       id: 'SimpleNode',
       props: {
         size: 46,
-        color: '#3056E3',
+        color: '#128075',
         label: ['id'],
         advanced: {
           icon: {
@@ -175,7 +175,7 @@ export const GI_PROJECT_CONFIG = {
       id: 'SimpleEdge',
       props: {
         size: 1,
-        color: '#3056E3',
+        color: '#128075',
         label: ['amount'],
         advanced: {
           keyshape: {
@@ -187,7 +187,7 @@ export const GI_PROJECT_CONFIG = {
             visible: true,
             fontSize: 12,
             offset: [0, 0],
-            fill: '#3056E3',
+            fill: '#128075',
             backgroundEnable: true,
             backgroundFill: 'rgba(255,255,255,1)',
             backgroundStroke: '#fff',
@@ -195,7 +195,7 @@ export const GI_PROJECT_CONFIG = {
           animate: {
             visible: true,
             type: 'circle-running',
-            dotColor: '#3056E3',
+            dotColor: '#128075',
             repeat: true,
             duration: 3000,
           },
@@ -311,7 +311,7 @@ export const GI_PROJECT_CONFIG = {
           isShowIcon: true,
           icon: 'icon-zoomin',
           isShowTooltip: true,
-          tooltipColor: '#3056e3',
+          tooltipColor: '#128075',
           tooltipPlacement: 'right',
           hasDivider: false,
           height: '60px',
@@ -331,7 +331,7 @@ export const GI_PROJECT_CONFIG = {
           isShowIcon: true,
           icon: 'icon-fit-view',
           isShowTooltip: true,
-          tooltipColor: '#3056e3',
+          tooltipColor: '#128075',
           tooltipPlacement: 'right',
           hasDivider: false,
           height: '60px',
@@ -351,7 +351,7 @@ export const GI_PROJECT_CONFIG = {
           isShowIcon: true,
           icon: 'icon-fit-center',
           isShowTooltip: true,
-          tooltipColor: '#3056e3',
+          tooltipColor: '#128075',
           tooltipPlacement: 'right',
           hasDivider: false,
           height: '60px',
@@ -371,7 +371,7 @@ export const GI_PROJECT_CONFIG = {
           isShowIcon: true,
           icon: 'icon-zoomout',
           isShowTooltip: true,
-          tooltipColor: '#3056e3',
+          tooltipColor: '#128075',
           tooltipPlacement: 'right',
           hasDivider: false,
           height: '60px',

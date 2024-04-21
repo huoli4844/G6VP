@@ -160,7 +160,7 @@ export const generatorSchemaByGraphData = (graphData: IGraphData, defaultOptions
 };
 
 export const COLORS = [
-  '#3056E3',
+  '#128075',
   '#faad14',
   '#a0d911',
   '#f5222d',

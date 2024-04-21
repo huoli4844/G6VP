@@ -3,7 +3,7 @@
  */
 
 const light = {
-  'primary-color': '#3056E3', // 全局主色
+  'primary-color': '#128075', // 全局主色
   'border-radius-base': '8px',
   // black: '#000',
   // white: '#fff',
@@ -17,7 +17,7 @@ const ali = {
 };
 
 const dark = {
-  'primary-color': '#3056E3', // 全局主色
+  'primary-color': '#128075', // 全局主色
   'border-radius-base': '8px',
   // 'component-background': '#1f1f1f', //'#171819',
   // white: '#fff',

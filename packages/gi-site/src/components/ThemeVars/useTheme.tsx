@@ -101,7 +101,7 @@ const useTheme = (context, updateState) => {
           edgesConfig: lightConfig.edges,
           name: $i18n.get({ id: 'gi-site.components.ThemeVars.useTheme.FreshBlue', dm: '清新蓝' }),
           id: 'light',
-          primaryColor: 'rgb(48, 86, 227)',
+          primaryColor: 'rgb(18, 128, 117)',
         };
         const aliTheme = {
           canvasConfig: getCanvasStyle(aliConfig),
