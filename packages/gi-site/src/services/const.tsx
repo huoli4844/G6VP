@@ -42,7 +42,7 @@ export const GI_SITE = {
     const { hostname, protocol } = window.location;
     const { GI_SITE_ID = 'DEFAULT' } = getSiteContext();
     const port = 7001;
-    let online = 'http://116.205.136.234:9092' || `${protocol}//${hostname}:${port}`;
+    let online = `${protocol}//${hostname}:${port}`;
     if (GI_SITE_ID === 'DEFAULT' && GI_SITE.IS_INC_SITE) {
       online = INC_SERVICE_URL;
     } else if (!IS_DEV_ENV){
